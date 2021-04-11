@@ -1,0 +1,173 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #dddddd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: #30475e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+header h3 {
+  color: #dddddd;
+  font-size: 70px;
+}
+
+header h2 {
+  color: #f05454;
+  font-size: 160px;
+}
+
+.todo {
+  margin: auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.todo .seccion {
+  width: 100%;
+  padding: 30px;
+}
+
+.todo .seccion .titulos {
+  margin-top: 100px;
+  color: #f05454;
+  font-family: "Courgette", cursive;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+.todo .seccion p {
+  display: block;
+  width: 60%;
+  margin: auto;
+  color: #222831;
+  font-size: 24px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.todo .seccion .centrar {
+  text-align: center;
+}
+
+.todo .seccion h3 {
+  text-align: center;
+  padding: 50px 10px 20px 10px;
+  font-size: 35px;
+  color: #30475e;
+  font-family: "Courgette", cursive;
+}
+
+.todo .seccion table {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.todo .seccion table tr td {
+  font-size: 24px;
+}
+
+.todo .seccion .tablaG {
+  width: 800px;
+  margin: 20px auto;
+}
+
+.todo .seccion .tablaG tr {
+  padding-bottom: 10px;
+}
+
+.todo .seccion .tablaG tr td:first-child {
+  width: 200px;
+}
+
+.todo .seccion .tablaG tr td:last-child {
+  width: 200px;
+  text-align: center;
+}
+
+.todo .seccion .nota {
+  width: 40%;
+  margin: 50px auto;
+  background: #ffe268;
+  padding: 15px;
+  border-radius: 20px;
+  -webkit-box-shadow: -11px 10px 10px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: -11px 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.todo .seccion .nota p {
+  width: 100%;
+  text-align: center;
+}
+
+.todo .seccion .imagen {
+  width: 800px;
+  margin: 60px auto 0px auto;
+  background: #dddddd;
+  border-radius: 30px;
+}
+
+.todo .seccion .imagen img {
+  width: 100%;
+  border-radius: 30px;
+  -webkit-box-shadow: -11px 10px 10px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: -11px 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  background: #30475e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer h3 {
+  color: #dddddd;
+}
+/*# sourceMappingURL=main.css.map */
